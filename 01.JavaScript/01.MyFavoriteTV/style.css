@@ -1,0 +1,197 @@
+/* 整体样式设置 */
+body {
+    background-color: #f5f5f5;
+    min-width: 1200px;
+}
+/* 概览部分 */
+.overview {
+    background-color: #e6f4ff;
+    padding: 32px 0px;
+}
+.overview .overview-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+.overview .overview-inner .title {
+    font-size: 200%;
+}
+.overview .overview-inner .tip {
+    margin-top: 12px;
+    color: #626675;
+}
+.overview .overview-inner .images {
+    display: flex;
+    justify-content: space-between;
+}
+.overview .overview-inner .images .image-item {
+    flex-basis: 32%;
+    width: 0px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* 主要内容部分 */
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.main-content .item {
+    background-color: #fff;
+    border: solid 1px #E5E5E5;
+    box-shadow: 0 2px 3px -2px #d5d5d5;
+    padding: 32px 16px;  
+}
+/* 主要内容的介绍部分 */
+.main-content .overall-intro {
+    display: flex;
+}
+.main-content .overall-intro .overall-statistic {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    margin-bottom: 24px;
+}
+.main-content .overall-intro .overall-statistic .overall-statistic-item {
+    margin-left: 8px;
+}
+.main-content .overall-intro .overall-statistic .overall-statistic-item:not(:last-child) {
+    border-right: 1px solid #eee;
+    padding-right: 8px;
+}
+.main-content .overall-intro .overall-statistic .overall-statistic-item .name {
+    color: #519cea;
+    font-weight: 500;
+}
+.main-content .overall-intro .overall-statistic .overall-statistic-item .num {
+    color: #888;
+}
+.main-content .overall-intro .overall-intro-text {
+    margin-right: 12px;
+}
+.main-content .overall-intro .overall-intro-text-item {
+    font-size: 14px;
+    line-height: 24px;
+    text-indent: 2em;
+}
+.main-content .overall-intro .overall-intro-image {
+    flex-basis: 25%;
+    flex-shrink: 0;
+    width: 0px;
+}
+.main-content .overall-intro .overall-table {
+    margin-top: 24px;
+}
+.main-content .overall-intro .overall-table .row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 12px 0px;
+}
+.main-content .overall-intro .overall-table .row .row-item {
+    flex-basis: 50%;
+    display: flex;
+}
+.main-content .overall-intro .overall-table .row .name {
+    color: #333;
+    font-weight: bold;
+    flex-basis: 25%;
+}
+.main-content .overall-intro .overall-table .row .data {
+    color: #747474;
+}
+/* 主要内容部分的基本信息部分 */
+.main-content .base {
+    margin-top: 12px;
+}
+.main-content .base .title-wrapper {
+    border-left: 10px solid #003eb3;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+.main-content .base .title-wrapper .title {
+    font-size: 150%;
+}
+.main-content .line {
+    flex-grow: 1;
+    background: #eee;
+    height: 1px;
+    margin-left: 12px;
+}
+.main-content .base .content-wrapper {
+    margin-top: 24px;
+    padding: 0px 10px;
+}
+.main-content .base .content-wrapper .row {
+    display: flex;
+    font-size: 6px;
+    padding: 12px 0px;
+    border-bottom: 1px dotted #ccc;
+}
+.main-content .base .content-wrapper .row .col {
+    flex-basis: 50%;
+    display: flex;
+}
+.main-content .base .content-wrapper .row .col .name {
+    color: #999;
+    font-weight: bold;
+    width: 80px;
+    flex-basis: 15%;
+}
+/* 演员表 */
+.main-content .actor-intro {
+    margin-top: 12px;
+}
+.main-content .actor-intro .title-wrapper {
+    border-left: 10px solid #003eb3;
+    margin: 0px -16px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+}
+.main-content .actor-intro .title-wrapper .title {
+    font-size: 150%;
+}
+.main-content .line {
+    flex-grow: 1;
+    background: #eee;
+    height: 1px;
+    margin-left: 12px;
+}
+.main-content .actor-intro .actor-list {
+    margin-top: 24px;
+    padding: 0px 10px;
+}
+.main-content .actor-intro .actor-list .actor-item {
+    display: flex;
+    align-items: start;
+}
+.main-content .actor-intro .actor-list .actor-item:not(:last-child) {
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-img {
+    width: 135px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc {
+    margin-left: 16px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .role-name {
+    color: #003eb3;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .actor-name {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+.main-content .actor-intro .actor-list .actor-item .actor-desc .actor-name .label {
+    color: #999;
+} 
+.main-content .actor-intro .actor-list .actor-item .actor-desc .role-detail {
+    font-size: 13px;
+    line-height: 1.3;
+}

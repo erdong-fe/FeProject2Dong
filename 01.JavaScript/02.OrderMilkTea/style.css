@@ -1,0 +1,121 @@
+/* 
+    样式重置
+*/
+body {
+    font-size: 16px;
+}
+h2 {
+    font-size: 300%;
+}
+input {
+    margin: 0px;
+}
+
+.desc {
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+/* 
+    顶部背景图部分
+*/
+.desc .desc-inner {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.desc-inner .title {
+    color: #fff;
+    margin-right: 36px;
+}
+.desc-inner .img-wrapper {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.desc-inner .img-wrapper img {
+    width: 0px;
+    flex-basis: 20%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.desc-inner .img-wrapper img:hover {
+    transform: rotate(20deg);
+}
+/* 
+    表单部分
+*/
+.order-form-wrapper {
+    padding: 24px 0px;
+    display: flex;
+    justify-content: center;
+}
+.order-form-wrapper .order-form {
+    width: auto;
+}
+.order-form-wrapper .order-form .form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.order-form-wrapper .order-form .form-item .form-item-label {
+    margin-right: 16px;
+    flex-basis: 30%;
+    text-align: right;
+    flex-shrink: 0;
+}
+.order-form-wrapper .order-form .form-item .form-item-label::after {
+    content: "：";
+}
+.order-form-wrapper .order-form .form-item .form-item-control {
+    display: flex;
+    flex-wrap: wrap;
+}
+.type-radios {
+    display: flex;
+}
+.radio-item {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.radio-item .radio-item-label, .checkbox-item .checkbox-item-label {
+    padding: 0px 8px;
+}
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.btn-wrapper {
+    justify-content: center;
+    padding-top: 24px;
+}
+.btn-wrapper .btn {
+    height: 32px;
+    padding: 4px 15px;
+    border-radius: 6px;
+    margin-right: 12px;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+.btn-wrapper .btn.primary {
+    background-color: #1677ff;
+    color: #fff;
+}
+.scroll-to-top {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    width: 24px;
+    border: 1px solid #595959;
+    padding: 4px;
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+    color: #595959;
+}
