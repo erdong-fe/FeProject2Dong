@@ -12,6 +12,8 @@
 ##### HTML
 1. 页面的结构划分
 2. 如何合理的使用语义化HTML
+> [html标签学习](https://www.w3school.com.cn/html/index.asp)
 ##### CSS
 1. flex布局
 2. CSS的基本使用
+> [30分钟学会flex布局](https://zhuanlan.zhihu.com/p/25303493)
