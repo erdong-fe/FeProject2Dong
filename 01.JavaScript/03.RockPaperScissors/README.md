@@ -1,15 +1,16 @@
 # 任务3：小游戏-石头剪刀布
 **该任务有一定难度，大家加油**
+
 任务3是做一个石头剪刀布的小游戏，整个游戏采取三局两胜制，游戏的对手是你和机器人
 每次出拳的原则是你这边在石头剪刀布里面选，机器人会在石头剪刀布里随机出一个
 判断游戏的结果就是看谁最先达到赢2次，也可能是平局
 ### 在线预览：
 [预览链接](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/03.RockPaperScissors/demo.html)
 ### 项目使用知识点：
-1. flex布局学习：https://zhuanlan.zhihu.com/p/25303493
-2. 浏览器的原生弹窗dialog: https://developer.mozilla.org/en-US/play
-3. javascript生成随机数：https://www.runoob.com/w3cnote/js-random.html
-4. 替换dom的子元素：https://developer.mozilla.org/zh-CN/docs/Web/API/Node/replaceChild
+1. flex布局学习：[链接](https://zhuanlan.zhihu.com/p/25303493)
+2. 浏览器的原生弹窗dialog: [链接](https://developer.mozilla.org/en-US/play)
+3. javascript生成随机数：[链接](https://www.runoob.com/w3cnote/js-random.html)
+4. 替换dom的子元素：[链接](https://developer.mozilla.org/zh-CN/docs/Web/API/Node/replaceChild)
 ### 项目要求
 1. 游戏初始化时：
     - 机器人和你的出拳区域都展示为问号
