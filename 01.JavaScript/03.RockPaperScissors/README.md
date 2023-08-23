@@ -11,6 +11,7 @@
 2. 浏览器的原生弹窗dialog: [链接](https://developer.mozilla.org/en-US/play)
 3. javascript生成随机数：[链接](https://www.runoob.com/w3cnote/js-random.html)
 4. 替换dom的子元素：[链接](https://developer.mozilla.org/zh-CN/docs/Web/API/Node/replaceChild)
+5. 进阶的程序设计能力，这个很重要
 ### 项目要求
 1. 游戏初始化时：
     - 机器人和你的出拳区域都展示为问号
