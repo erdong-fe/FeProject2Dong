@@ -3,6 +3,7 @@ html, body {
 }
 body {
     background-color: #ffec3d;
+    font-family: "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
 }
 .btn {
     height: 32px;
