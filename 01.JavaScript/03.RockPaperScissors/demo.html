@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石头剪刀布</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <p class="round"></p>
+        <div class="game">
+            <div class="computer player">
+                <div class="gesture">
+                    <span class="pending">?</span>
+                    <!-- <img class="computer-img" src="./images/paper.png" alt=""> -->
+                </div>
+                <p class="name">
+                    机器人
+                </p>
+                <p class="score">
+                    胜：0 | 负：0
+                </p>
+            </div>
+            <div class="my player">
+                <div class="gesture">
+                    <span class="pending">?</span>
+                    <!-- <img class="my-img" src="./images/rock.png" alt=""> -->
+                </div>
+                <p class="name">
+                    耳东
+                </p>
+                <p class="score">
+                    胜：0 | 负：0
+                </p>
+            </div>
+        </div>
+        <div class="result-of-this-round"></div>
+        <div class="result-of-total-round"></div>
+        <div class="start-this-round">
+            <button id="start-this-round-btn" class="btn">开始下一回合</button>
+        </div>
+    </div>
+    <dialog id="select-dialog">
+        <form id="select-form">
+            <p class="row">
+                <label for="gesture">
+                    请选择要出的手势：
+                </label>
+                <select name="gesture" id="gesture-select">
+                    <option value="rock">石头</option>
+                    <option value="scissor">剪刀</option>
+                    <option value="paper">布</option>
+                </select>
+            </p>
+            <p class="row">
+                <button class="btn" type="submit" id="submit-select">确定</button>
+            </p>
+        </form>
+    </dialog>
+    <script src="./index.js"></script>
+</body>
+</html>
