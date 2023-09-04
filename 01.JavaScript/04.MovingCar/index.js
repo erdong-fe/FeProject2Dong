@@ -45,6 +45,7 @@ function initGame() {
         carTypeSelectDom.value = data.carType;
         carDom.style.left = data.position.left;
         carDom.style.top = data.position.top;
+        renderCar(data.carType);
         changeCarHeadDirection(data.headDirection);
     }
 }
