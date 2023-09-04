@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+#main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffec3d;
+}
+#main .game {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .game .game-map {
+    height: 440px;
+    width: 800px;
+    position: relative;
+    border: 2px solid #222;
+}
+#main .game .game-map .car {
+    height: 28px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+#main .game .game-map .car-right {
+    transform: rotate(0deg);
+}
+#main .game .game-map .car-up {
+    transform: rotate(-90deg);
+}
+#main .game .game-map .car-down {
+    transform: rotate(90deg);
+}
+#main .game .game-map .car-left {
+    transform: scale(-1,1);
+}
+#main .control {
+    flex-basis: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main .control .control-inner {
+    width: 800px;
+    display: flex;
+}
+#main .control .control-inner .item {
+    flex-grow: 1;
+}
