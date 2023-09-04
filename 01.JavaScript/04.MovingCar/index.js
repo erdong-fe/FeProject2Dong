@@ -7,12 +7,12 @@ const KeyCode = {
 };
 // 车型对应的图片资源
 const CarTypeImg = {
-    tractors: 'https://files.mdnice.com/user/7873/beae6740-61fd-43a1-be41-145e8525793e.png',
-    truck: 'https://files.mdnice.com/user/7873/b0a63069-9647-47e3-a352-0cca92a3924b.png',
-    motor: 'https://files.mdnice.com/user/7873/b0d410ea-4af5-462b-986e-626561160ea2.png',
-    roadster: 'https://files.mdnice.com/user/7873/0e318261-0817-4315-bac8-41761877f22e.png',
-    electromobile: 'https://files.mdnice.com/user/7873/13812853-6182-4825-9104-e1f55e48eefe.png',
-    bike: 'https://files.mdnice.com/user/7873/03b3809d-4e29-476c-ad64-211555566f32.png'
+    tractors: './images/car1.png',
+    truck: './images/car2.png',
+    motor: './images/car3.png',
+    roadster: './images/car4.png',
+    electromobile: './images/car5.png',
+    bike: './images/car6.png'
 }
 
 // 和游戏相关的dom
