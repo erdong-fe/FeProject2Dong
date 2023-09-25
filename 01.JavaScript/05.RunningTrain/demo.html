@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>疾驰的火车🚄</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <div class="control">
+            <div class="item">
+                <label for="playBgm">是否播放背景音乐：</label>
+                <select name="playBgm" id="playBgm">
+                    <option value="yes">是</option>
+                    <option value="no" selected>否</option>
+                </select>
+            </div>
+            <div class="item">
+                <label for="playBgm">得分：</label>
+                <span class="score">
+                    1
+                </span>
+            </div>
+        </div>
+        <div class="game">
+            <div class="game-map">
+                <div class="train-node">
+                    <ul class="window-list">
+                        <li class="window-item"></li>
+                        <li class="window-item"></li>
+                    </ul>
+                    <div class="line"></div>
+                </div>
+                <div class="train-node">
+                    <ul class="window-list">
+                        <li class="window-item"></li>
+                        <li class="window-item"></li>
+                    </ul>
+                    <div class="line"></div>
+                </div>
+                <div class="train-node train-head">
+                    <ul class="window-list">
+                        <li class="window-item"></li>
+                        <li class="window-item"></li>
+                    </ul>
+                    <div class="line"></div>
+                </div>
+                <!-- <img class="bonus" src="./images/bonus.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+    <audio id="bgm" src="./music/bgm.mp3" loop="true"></audio>
+    <script src="./index.js"></script>
+</body>
+</html>

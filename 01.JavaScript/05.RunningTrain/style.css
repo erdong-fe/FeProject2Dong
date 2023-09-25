@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+#main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#69b1ff;
+}
+#main .game {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main .game .game-map {
+    height: 95%;
+    width: 1100px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 2px;
+}
+#main .game .game-map .train-node {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: #eee;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 6px;
+    border-top-left-radius: 2px;
+}
+#main .game .game-map .train-node .window-list {
+    position: absolute;
+    display: flex;
+    left: 2px;
+    top: 6px;
+}
+#main .game .game-map .train-node .window-list .window-item {
+    width: 4px;
+    height: 8px;
+    background: #9ebed1;
+    border: 1px solid #4b5f70;
+    border-radius: 2px;
+}
+#main .game .game-map .train-node .window-list .window-item:not(:first-child) {
+    margin-left: 2px;
+}
+#main .game .game-map .train-node .line {
+    position: absolute;
+    width: 16px;
+    left: 2px;
+    bottom: 2px;
+    height: 2px;
+    background: #4b5f70;
+    border-radius: 2px;
+}
+#main .game .game-map .car-right {
+    transform: rotate(0deg);
+}
+#main .game .game-map .car-up {
+    transform: rotate(-90deg);
+}
+#main .game .game-map .car-down {
+    transform: rotate(90deg);
+}
+#main .game .game-map .car-left {
+    transform: scale(-1,1);
+}
+#main .control {
+    width: 1100px;
+    flex-basis: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main .control .item {
+    flex-grow: 1;
+    font-size: 16px;
+    font-weight: 400;
+}
+#main .control .item .score {
+    font-weight: bold;
+}
+.bonus {
+    width: 22px;
+    position: absolute;
+}
