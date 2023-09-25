@@ -8,3 +8,4 @@
 任务2 |  喜东茶-奶茶预定表单 | [文档](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/02.OrderMilkTea/index.html) | [预览地址](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/02.OrderMilkTea/demo.html)
 任务3 | 小游戏-石头剪刀布 | [文档](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/03.RockPaperScissors/index.html) | [预览地址](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/03.RockPaperScissors/demo.html)
 任务4 | 奔跑的汽车 | [文档](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/04.MovingCar/index.html) | [预览地址](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/04.MovingCar/demo.html)
+任务5 | 火车快跑-第一部分 | [文档](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/05.RunningTrain/#第一部分) | [预览地址](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/05.RunningTrain/demo.html)
