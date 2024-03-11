@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Layout({ children }) {
   return (
-    <div className="project-detail">
+    <div className="project-detail flex min-h-screen flex-col items-center p-12">
       {children}
     </div>
   )

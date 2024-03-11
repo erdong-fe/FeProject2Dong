@@ -4,7 +4,7 @@
 任务4是做一个可以使用键盘操作的小车，使用键盘的上下左右方向键来控制小车的移动，为我们的下一个任务做准备
 
 ### 在线预览
-[github预览链接](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/04.MovingCar/demo.html)
+[github预览链接](https://erdong-fe.github.io/FeProject2Dong/01javascript/04.MovingCar/demo.html)
 
 ### 项目使用知识点
 1. flex布局学习：[链接](https://zhuanlan.zhihu.com/p/25303493)

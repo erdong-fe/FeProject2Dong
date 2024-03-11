@@ -1,5 +1,3 @@
-import Fold from "../demos/01FoldButton";
-import XiaohongshuPC from "../demos/02XiaohongshuPC";
 import ProjectCard from "./components/ProjectCard";
 export default function Home() {
   return (
@@ -8,12 +6,12 @@ export default function Home() {
         <ProjectCard
           projectName="01 折角按钮"
           projectDesc="使用React实现按钮多位置的折角"
-          projectPath="01FoldButton"
+          projectPath="FoldButton"
         />
         <ProjectCard
           projectName="02 小红书PC端布局"
           projectDesc="使用React模仿实现小红书PC端网页"
-          projectPath="02XiaohongshuPC"
+          projectPath="XiaohongshuPC"
         />
       </div>
     </main>

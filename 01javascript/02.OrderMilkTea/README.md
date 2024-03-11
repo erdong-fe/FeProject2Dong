@@ -1,6 +1,6 @@
 # 任务2：喜东茶-奶茶预订表单
 ### 在线预览：
-[预览链接](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/02.OrderMilkTea/demo.html)
+[预览链接](https://erdong-fe.github.io/FeProject2Dong/01javascript/02.OrderMilkTea/demo.html)
 ### 项目要求和学习资料
 1. 页面顶部4张奶茶图片，并且鼠标移动到图片上时，图片会有一个角度旋转的效果
     > 参考资料
