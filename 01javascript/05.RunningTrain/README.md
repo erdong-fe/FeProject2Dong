@@ -7,7 +7,7 @@
 ## 第一部分
 
 ### 在线预览
-[github预览](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/05.RunningTrain/demo.html)
+[github预览](https://erdong-fe.github.io/FeProject2Dong/01javascript/05.RunningTrain/demo.html)
 
 ### 项目使用知识点
 1. flex布局学习：[链接](https://zhuanlan.zhihu.com/p/25303493)

@@ -5,7 +5,7 @@
 每次出拳的原则是你这边在石头剪刀布里面选，机器人会在石头剪刀布里随机出一个
 判断游戏的结果就是看谁最先达到赢2次，也可能是平局
 ### 在线预览：
-[预览链接](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/03.RockPaperScissors/demo.html)
+[预览链接](https://erdong-fe.github.io/FeProject2Dong/01javascript/03.RockPaperScissors/demo.html)
 ### 项目使用知识点：
 1. flex布局学习：[链接](https://zhuanlan.zhihu.com/p/25303493)
 2. 浏览器的原生弹窗dialog: [链接](https://developer.mozilla.org/en-US/play)

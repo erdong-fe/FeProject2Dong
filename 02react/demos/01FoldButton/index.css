@@ -1,0 +1,70 @@
+/* 选择折角位置部分 */
+.fold-placement-radio {
+    display: flex;
+}
+.fold-placement-radio-item {
+    margin-left: 12px;
+}
+.fold-placement-radio-item label {
+    cursor: pointer;
+    margin-left: 2px;
+}
+.fold-placement-radio-item input {
+    cursor: pointer;
+}
+
+/* 折角按钮部分 */
+.fold-button {
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: #1677ff;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.6em;
+    color: #dedede;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    margin-top: 24px;
+    color: #fff;
+}
+
+.fold-button .fold-angle {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    transition: 0.3s;
+}
+.placement-left-top {
+    border-radius: 0.5em 0 0.5em 0;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #fff 0%, #fff 50%, #1677ff 50%, #1677ff 100%);
+    box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+}
+.placement-right-top {
+    border-radius: 0em 0.5em 0 0.5em;
+    top: 0;
+    right: 0;
+    background: linear-gradient(225deg, #fff 0%, #fff 50%, #1677ff 50%, #1677ff 100%);
+    box-shadow: -0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+}
+
+.placement-left-bottom {
+    border-radius: 0em 0.5em 0 0.5em;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(45deg, #fff 0%, #fff 50%, #1677ff 50%, #1677ff 100%);
+    box-shadow: 0.2em -0.2em 0.2em rgba(0, 0, 0, 0.3);
+}
+.placement-right-bottom {
+    border-radius: 0.5em 0em 0.5em 0em;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(-45deg, #fff 0%, #fff 50%, #1677ff 50%, #1677ff 100%);
+    box-shadow: -0.2em -0.2em 0.2em rgba(0, 0, 0, 0.3);
+}
+.fold-button:hover .fold-angle {
+    width: 1.6em;
+    height: 1.6em;
+}

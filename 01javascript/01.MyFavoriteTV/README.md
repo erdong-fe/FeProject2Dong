@@ -1,6 +1,6 @@
 # 任务1：我最喜欢的电视剧（电影）
 ### 在线预览
-[Github预览地址](https://erdong-fe.github.io/FeProject2Dong/01.JavaScript/01.MyFavoriteTV/demo.html)
+[Github预览地址](https://erdong-fe.github.io/FeProject2Dong/01javascript/01.MyFavoriteTV/demo.html
 ### 截图
 实现一个和下图一样的HTML静态页面，主体是“我最喜欢的电视剧（电影）”，选择一个你自己你喜欢的电视剧或电影，展示成图中这样的布局和格式，要求：
 1. 页面还原度要尽可能的高
